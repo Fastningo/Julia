@@ -15,10 +15,7 @@
   animation: tilt-n-move-shaking 0.15s infinite;
 }
 
-.yes-gif {
-  height: 120px;
-  width: fit-content;
-}
+
 .yes-gif img { 
   height: 200px;
   width: 200px;
@@ -30,6 +27,8 @@
   text-align: center;
   
 }
+
+
 
 @keyframes tilt-n-move-shaking {
   0% { transform: translate(0, 0) rotate(0deg); }

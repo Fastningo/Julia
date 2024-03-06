@@ -8,7 +8,8 @@
   color: black;
   margin: 20px 10px 0 10px;
   font-size: 25px;
-  width: 100px;
+  width: fit-content;
+  min-width: 100px;
   height: 50px;
   
   background-color: rgb(90, 208, 90);
@@ -40,7 +41,7 @@
 .container button:active {
   background-color: rgb(75, 195, 75);
   transform: translateY(3px);
-  width: 100px;
+  width: fit-content;
   border-right: 4px solid darkgreen; 
   border-bottom: 5px solid darkgreen;
 }

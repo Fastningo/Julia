@@ -1,6 +1,8 @@
 import './yes.css'
 import birthdayMonkey from '../../assets/birthday-monkey.gif';
 import song from '../../assets/song.mp3';
+import Button from '../../components/Button/Button';
+import { Link } from 'react-router-dom'; 
 
 const Yes = () => {
   return (
@@ -13,6 +15,11 @@ const Yes = () => {
       </div>
       <div className="yes-sub">
         <h2>Thank you for being the best girlfriend EVER!</h2>
+      </div>
+      <div className="yes-button">
+        <Link to='/love'>
+          <Button title='I love you!' />
+        </Link>
       </div>
 
       <audio autoPlay loop >
